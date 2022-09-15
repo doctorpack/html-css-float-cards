@@ -1,21 +1,51 @@
+
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     font-family: 'Fredoka', sans-serif;
-    text-align:center;
+    
 }
 #titolo{
     color: red;
     text-align: center;
+    margin: 40px;
 }
 .contenitore-allineamento-pagina{
-    margin-top: 50px ;  
+    width: 60%; 
+    margin: auto; 
 }
 
-.contenitore-testo-immagini{
-   margin-left: 200px;
-   margin-right: 200px;
+.testo-margine-titolo{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+img{
+height:100px;
+}
+
+.card{
+    background-color: #0f0e17;
+    height: 100px;
+    width: 90%;
+
+}
+.card-testo{
+    float: right;
+    margin-top: 10px;
+    padding-right: 70px;
+    font-weight: 400;
+    width: 67%;
+    color: white;
     
 }
 
+.col{
+    width: calc(100% / 3);
+    float: left;
+    padding: 15px 15px;
+
+}
