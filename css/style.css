@@ -1,3 +1,21 @@
 *{
     box-sizing: border-box;
 }
+body{
+    font-family: 'Fredoka', sans-serif;
+    text-align:center;
+}
+#titolo{
+    color: red;
+    text-align: center;
+}
+.contenitore-allineamento-pagina{
+    margin-top: 50px ;  
+}
+
+.contenitore-testo-immagini{
+   margin-left: 200px;
+   margin-right: 200px;
+    
+}
+
